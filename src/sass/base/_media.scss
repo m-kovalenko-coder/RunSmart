@@ -1,0 +1,127 @@
+@media (max-width: 1200px) {}
+@media (max-width: 991px) {
+    .title_left{
+        text-align: center;
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .carousel {
+        &__inner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .slick-dots {
+        img {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            display: none;
+        } 
+    }
+    .promo {
+        min-height: 500px;
+        padding: 21px 30px 30px 30px;
+        &__wrapper {
+            align-items: center;
+            margin-top: 40px;
+        }
+        &__icons {
+            margin: 30px 0;
+        }
+    }    
+    .advantages {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            margin: 20px
+        }
+    }
+    .consultation {
+        min-height: 620px;
+        padding: 50px 0 46px 0;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        &__phone {
+            font-size: 15px;
+        }
+        &__logo {
+            width: 48%;
+        }
+    }
+
+    .promo {
+        min-height: 450px;
+        padding: 10px;
+        &__header {
+            font-size: 25px;
+        }
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__subheader {
+            font-size: 14px; 
+        }
+        &__icons {
+            width: 100%;
+            justify-content: space-around;
+        }
+        &__icon{
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }    
+    .title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .advantages {
+        padding: 35px 0 20px 0;
+        &__descr {
+            font-size: 20px;
+        }
+        &__wrapper {
+            margin-top: 10px;
+        }
+        &__title {
+            margin-top: 10px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
+    .title_left{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .consultation {
+        min-height: 535px;
+        &__descr {
+            margin-top: 40px;
+            font-size: 15px;
+        }
+    }
+    
+}
