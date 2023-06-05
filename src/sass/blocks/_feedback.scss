@@ -1,0 +1,41 @@
+.feedback {
+    padding-bottom: 71px;
+    &__wrapper {
+        margin-top: 70px;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        hr {
+            margin: 0;
+            border-top: none;
+            width: 940px;
+        }
+    }
+    &__item {
+        display: flex;
+        gap: 62px;
+    }
+    &__avatar {
+        height: 169px;
+        width: 169px;
+        border-radius: 50%;
+    }
+    &__title {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__subtitle {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__descr {
+        width: 660px;
+        margin-top: 14px;
+        color: #0d0d0d;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+}
