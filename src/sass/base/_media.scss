@@ -159,5 +159,19 @@
             margin-top: 30px
         }
     }
-    
+    .footer {
+        &__info {
+            height: auto;
+            width: 100%;
+            padding:  15px 10px 20px 10px;
+        }   
+    }
+    .modal {
+        width: 100%;
+        padding: 38px 30px 40px 30px;
+        &__close {
+            top: 0px;
+            right: 5px;
+        }
+    }
 }
